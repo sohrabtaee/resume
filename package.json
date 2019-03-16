@@ -1,0 +1,22 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Sohrab Taee Resume",
+  "main": "index.html",
+  "scripts": {
+    "scss": "node-sass --watch styles -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sohrabtaee/resume.git"
+  },
+  "author": "Sohrab Taee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sohrabtaee/resume/issues"
+  },
+  "homepage": "https://github.com/sohrabtaee/resume#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}

@@ -1,0 +1,56 @@
+/* main content */
+.main-content {
+  padding: 2em;
+  width: 65%;
+  .refer {
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  h2 {
+    text-transform: uppercase;
+  }
+  .list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    li {
+      margin-bottom: 1.5em;
+    }
+    h4 {
+      margin-bottom: 0;
+    }
+    .date {
+      font-size: 0.9em;
+      margin: 0.25em 0;
+    }
+    a,
+    a:link,
+    a:visited {
+      color: $black;
+      border-color: $black;
+    }
+    a:hover,
+    a:active {
+      color: $main-color;
+      border-color: $main-color;
+    }
+  }
+  article {
+    margin-bottom: 3em;
+  }
+}
+
+/* skills */
+.skills {
+  list-style-type: none;
+  padding: 0;
+  li {
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid $main-color;
+    color: $main-color;
+    padding: 0 0.5em;
+    margin: 0 0.25em 0.5em 0;
+    font-size: 0.85em;
+  }
+}

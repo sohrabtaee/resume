@@ -1,0 +1,46 @@
+/* sidebar */
+.sidebar {
+  background-color: $main-color;
+  color: #fff;
+  width: 35%;
+  padding: 2em 1em;
+  font-size: 0.9em;
+  p {
+    color: darken(#fff, 5%);
+  }
+  a,
+  a:link,
+  a:visited {
+    color: #fff;
+    word-break: break-word;
+  }
+  a:hover,
+  a:active {
+    color: darken(#fff, 20%);
+  }
+}
+
+/* intro */
+.intro {
+  h1 {
+    margin: 0.5em 0 0;
+  }
+  img {
+    border-radius: 50%;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+/* contact */
+.contact {
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    margin-bottom: 0.5em;
+  }
+}

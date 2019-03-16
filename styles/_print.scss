@@ -1,0 +1,27 @@
+@media print {
+  .print-only {
+    display: block;
+  }
+  .screen-only {
+    display: none;
+  }
+  p,
+  a,
+  a:link,
+  a:visited,
+  a:hover,
+  a:active {
+    color: #000;
+  }
+  .sidebar {
+    -webkit-print-color-adjust: exact;
+    p,
+    a,
+    a:link,
+    a:visited,
+    a:hover,
+    a:active {
+      color: #fff;
+    }
+  }
+}

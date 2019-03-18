@@ -4,7 +4,6 @@
   color: #fff;
   width: 35%;
   padding: 2em 1em;
-  font-size: 0.9em;
   p {
     color: darken(#fff, 5%);
   }
@@ -42,5 +41,8 @@
   }
   li {
     margin-bottom: 0.5em;
+    a {
+      border-bottom: 0;
+    }
   }
 }

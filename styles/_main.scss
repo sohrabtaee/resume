@@ -2,10 +2,6 @@
 .main-content {
   padding: 2em;
   width: 65%;
-  .refer {
-    font-weight: 500;
-    text-transform: uppercase;
-  }
   h2 {
     text-transform: uppercase;
   }
@@ -21,18 +17,9 @@
     }
     .date {
       font-size: 0.9em;
+    }
+    div {
       margin: 0.25em 0;
-    }
-    a,
-    a:link,
-    a:visited {
-      color: $black;
-      border-color: $black;
-    }
-    a:hover,
-    a:active {
-      color: $main-color;
-      border-color: $main-color;
     }
   }
   article {
@@ -51,6 +38,5 @@
     color: $main-color;
     padding: 0 0.5em;
     margin: 0 0.25em 0.5em 0;
-    font-size: 0.85em;
   }
 }

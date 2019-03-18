@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,500");
 
 html {
-  font-size: 16px;
+  font-size: 14px;
   min-width: 100%;
 }
 
@@ -62,15 +62,15 @@ a,
 a:link,
 a:visited {
   text-decoration: none;
-  color: $main-color;
-  border-bottom: 1px solid $main-color;
+  color: $link-color;
+  border-bottom: 1px solid $link-color;
 }
 
 a:hover,
 a:active {
   text-decoration: none;
-  color: darken($main-color, 15%);
-  border-color: darken($main-color, 15%);
+  color: $main-color;
+  border-color: $main-color;
 }
 
 a:focus,
@@ -112,4 +112,15 @@ img {
   min-height: 29.68cm;
   display: flex;
   background-color: #fff;
+}
+
+.refer {
+  margin: 1em auto;
+  width: 21cm;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  border: 3px dashed lighten($black, 50%);
+  padding: 1em 2em;
+  box-sizing: border-box;
 }

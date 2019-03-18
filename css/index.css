@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,500");
 html {
-  font-size: 16px;
+  font-size: 14px;
   min-width: 100%; }
 
 body {
@@ -51,14 +51,14 @@ a,
 a:link,
 a:visited {
   text-decoration: none;
-  color: #941366;
-  border-bottom: 1px solid #941366; }
+  color: #e429a1;
+  border-bottom: 1px solid #e429a1; }
 
 a:hover,
 a:active {
   text-decoration: none;
-  color: #500a37;
-  border-color: #500a37; }
+  color: #941366;
+  border-color: #941366; }
 
 a:focus,
 button:focus {
@@ -93,13 +93,22 @@ img {
   display: flex;
   background-color: #fff; }
 
+.refer {
+  margin: 1em auto;
+  width: 21cm;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  border: 3px dashed #a1a1a1;
+  padding: 1em 2em;
+  box-sizing: border-box; }
+
 /* sidebar */
 .sidebar {
   background-color: #941366;
   color: #fff;
   width: 35%;
-  padding: 2em 1em;
-  font-size: 0.9em; }
+  padding: 2em 1em; }
   .sidebar p {
     color: #f2f2f2; }
   .sidebar a,
@@ -129,14 +138,13 @@ img {
 
 .contact li {
   margin-bottom: 0.5em; }
+  .contact li a {
+    border-bottom: 0; }
 
 /* main content */
 .main-content {
   padding: 2em;
   width: 65%; }
-  .main-content .refer {
-    font-weight: 500;
-    text-transform: uppercase; }
   .main-content h2 {
     text-transform: uppercase; }
   .main-content .list {
@@ -148,17 +156,9 @@ img {
     .main-content .list h4 {
       margin-bottom: 0; }
     .main-content .list .date {
-      font-size: 0.9em;
+      font-size: 0.9em; }
+    .main-content .list div {
       margin: 0.25em 0; }
-    .main-content .list a,
-    .main-content .list a:link,
-    .main-content .list a:visited {
-      color: #212121;
-      border-color: #212121; }
-    .main-content .list a:hover,
-    .main-content .list a:active {
-      color: #941366;
-      border-color: #941366; }
   .main-content article {
     margin-bottom: 3em; }
 
@@ -172,8 +172,7 @@ img {
     border: 1px solid #941366;
     color: #941366;
     padding: 0 0.5em;
-    margin: 0 0.25em 0.5em 0;
-    font-size: 0.85em; }
+    margin: 0 0.25em 0.5em 0; }
 
 @media print {
   .print-only {

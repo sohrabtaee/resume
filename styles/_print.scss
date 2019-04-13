@@ -1,6 +1,6 @@
 @media print {
   .print-only {
-    display: block;
+    display: inline-block;
   }
   .screen-only {
     display: none;
@@ -12,6 +12,7 @@
   a:hover,
   a:active {
     color: #000;
+    border-bottom: 0;
   }
   .sidebar {
     -webkit-print-color-adjust: exact;
@@ -23,5 +24,14 @@
     a:active {
       color: #fff;
     }
+  }
+  #resume {
+    width: 20cm;
+    min-height: 29.68cm;
+    margin: 0.5cm;
+  }
+  .refer {
+    width: 20cm;
+    margin: 0.5cm;
   }
 }

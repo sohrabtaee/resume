@@ -5,17 +5,18 @@
   width: 35%;
   padding: 2em 1em;
   p {
-    color: darken(#fff, 5%);
+    color: $light-gray;
   }
   a,
   a:link,
   a:visited {
     color: #fff;
     word-break: break-word;
+    border-bottom: 1px solid transparent;
   }
   a:hover,
   a:active {
-    color: darken(#fff, 20%);
+    border-bottom: 1px solid #fff;
   }
 }
 

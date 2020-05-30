@@ -16,7 +16,7 @@
       margin-bottom: 0;
     }
     .date {
-      color: lighten($black, 25%);
+      color: $gray;
     }
     div {
       margin: 0.25em 0;
@@ -34,8 +34,8 @@
   li {
     display: inline-block;
     vertical-align: middle;
-    border: 1px solid $main-color;
-    color: $main-color;
+    border: 1px solid $gray;
+    color: $dark-gray;
     padding: 0 0.5em;
     margin: 0 0.25em 0.5em 0;
   }

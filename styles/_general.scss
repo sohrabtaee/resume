@@ -113,9 +113,14 @@ img {
   width: 1000px;
   font-weight: 500;
   text-transform: uppercase;
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   color: $dark-gray;
   border: 3px dashed $gray;
   padding: 1em 2em;
   box-sizing: border-box;
+  p {
+    margin: 0;
+  }
 }

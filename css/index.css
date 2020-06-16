@@ -93,11 +93,15 @@ img {
   width: 1000px;
   font-weight: 500;
   text-transform: uppercase;
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   color: #333333;
   border: 3px dashed #767676;
   padding: 1em 2em;
   box-sizing: border-box; }
+  .refer p {
+    margin: 0; }
 
 /* sidebar */
 .sidebar {
@@ -200,7 +204,8 @@ img {
   .refer {
     width: 20cm;
     margin: 0.5cm;
-    font-size: 0.833em; }
+    font-size: 0.833em;
+    text-align: center; }
   .info, .skills {
     page-break-inside: avoid;
-    padding-top: 0.5cm; } }
+    padding-top: 0.75cm; } }

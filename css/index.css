@@ -160,10 +160,10 @@ img {
     margin-bottom: 3em; }
 
 /* skills */
-.skills {
+.skill-set {
   list-style-type: none;
   padding: 0; }
-  .skills li {
+  .skill-set li {
     display: inline-block;
     vertical-align: middle;
     border: 1px solid #767676;

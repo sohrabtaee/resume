@@ -1,9 +1,20 @@
 @media print {
+  body {
+    background-color: #fff;
+  }
   .print-only {
     display: inline-block;
   }
   .screen-only {
     display: none;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: normal;
   }
   p,
   a,
@@ -11,18 +22,22 @@
   a:visited,
   a:hover,
   a:active {
-    color: #000;
+    color: #000 !important;
     border-bottom: 0;
   }
   .sidebar {
     -webkit-print-color-adjust: exact;
-    p,
-    a,
-    a:link,
-    a:visited,
-    a:hover,
-    a:active {
-      color: #fff;
+    .contact {
+      a {
+        margin-bottom: 0.25cm;
+        display: block;
+      }
+      i {
+        display: block;
+      }
+      span {
+        word-break: break-all;
+      }
     }
   }
   #resume {

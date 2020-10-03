@@ -27,6 +27,10 @@
   }
   .sidebar {
     -webkit-print-color-adjust: exact;
+    img {
+      width: 200px;
+      margin: 0;
+    }
     .contact {
       a {
         margin-bottom: 0.25cm;
@@ -51,7 +55,8 @@
     font-size: 0.833em;
     text-align: center;
   }
-  .info, .skills {
+  .info,
+  .skills {
     page-break-inside: avoid;
     padding-top: 0.75cm;
   }

@@ -8,7 +8,7 @@ body {
   min-height: 100%;
   padding: 0;
   margin: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 1.6;
   font-weight: 400;
   background-color: $light-gray;
@@ -72,6 +72,10 @@ a:active {
 
 small {
   font-size: 0.65em;
+}
+
+strong {
+  font-weight: 600;
 }
 
 i {

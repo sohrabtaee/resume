@@ -34,7 +34,7 @@
   }
   .description {
     max-height: 0;
-    transition: max-height 0.35s;
+    transition: max-height 0.35s, margin 0.35s;
     border-left: 3px solid $main-color;
     padding-left: 1em;
     p {

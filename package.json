@@ -4,7 +4,7 @@
   "description": "Sohrab Taee Resume",
   "main": "index.html",
   "scripts": {
-    "scss": "node-sass --watch styles -o css"
+    "scss": "node-sass --watch styles -o css --output-style compressed"
   },
   "repository": {
     "type": "git",

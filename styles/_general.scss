@@ -21,9 +21,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 300;
   line-height: 1.3;
   margin: 0 0 0.5em;
+  font-weight: 400;
 }
 
 h1 {
@@ -52,22 +52,24 @@ h6 {
 
 p {
   font-size: 1em;
-  margin: 0 0 1.5em;
+  margin: 0 0 1em;
+}
+
+li {
+  margin-bottom: 0.25em;
 }
 
 a,
 a:link,
 a:visited {
   text-decoration: none;
-  color: $dark-gray;
-  border-bottom: 1px solid $dark-gray;
+  color: $main-color;
 }
 
 a:hover,
 a:active {
   text-decoration: none;
-  color: $main-color;
-  border-color: $main-color;
+  color: $dark-color;
 }
 
 small {
@@ -91,18 +93,29 @@ img {
   display: none;
 }
 
+.section-title {
+  text-transform: uppercase;
+  color: $dark-color;
+  margin-top: 1.5em;
+}
+
+.unbulleted-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
 /* resume */
-#resume {
+.resume {
   margin: 2em auto 0;
   display: flex;
   width: 1000px;
   background-color: #fff;
 }
 
-.refer {
+.footnotes {
   margin: 1em auto;
   width: 1000px;
-  font-weight: 400;
   text-transform: uppercase;
   display: flex;
   justify-content: space-between;
@@ -110,17 +123,7 @@ img {
   border: 2px dashed $gray;
   padding: 1em 2em;
   box-sizing: border-box;
-  p {
-    margin: 0;
-  }
-  a,
-  a:link,
-  a:visited {
-    color: $main-color;
-    border-color: transparent;
-    &:hover,
-    &:active {
-      border-color: $main-color;
-    }
+  &-linkedin {
+    margin-bottom: 0;
   }
 }

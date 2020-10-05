@@ -6,15 +6,7 @@
     display: inline-block;
   }
   .screen-only {
-    display: none;
-  }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-weight: normal;
+    display: none !important;
   }
   p,
   a,
@@ -23,41 +15,46 @@
   a:hover,
   a:active {
     color: #000 !important;
-    border-bottom: 0;
+    border-bottom: 0 !important;
   }
   .sidebar {
     -webkit-print-color-adjust: exact;
-    img {
+  }
+  .intro {
+    .image {
       width: 200px;
       margin: 0;
     }
-    .contact {
-      a {
-        margin-bottom: 0.25cm;
-        display: block;
-      }
-      i {
-        display: block;
-      }
-      span {
-        word-break: break-all;
-      }
+  }
+  .contact {
+    a {
+      margin-bottom: 0.25cm;
+      display: block;
+    }
+    i {
+      display: block;
+    }
+    span {
+      word-break: break-all;
     }
   }
-  #resume {
+  .resume {
     width: 20cm;
     min-height: 29.68cm;
     margin: 0.5cm;
   }
-  .refer {
+  .footnotes {
     width: 20cm;
     margin: 0.5cm;
     font-size: 0.833em;
     text-align: center;
   }
-  .info,
+  .intro,
+  .education {
+    page-break-after: always;
+  }
+  .location,
   .skills {
-    page-break-inside: avoid;
-    padding-top: 0.75cm;
+    margin-top: 0.75cm;
   }
 }

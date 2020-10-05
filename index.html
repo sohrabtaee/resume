@@ -12,7 +12,7 @@
     />
     <link rel="stylesheet" href="./css/index.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
       rel="stylesheet"
     />
     <link
@@ -23,11 +23,11 @@
     />
   </head>
   <body>
-    <main id="resume">
+    <main class="resume">
       <aside class="sidebar">
         <div class="intro">
-          <img src="sohrab-taee.jpg" alt="Sohrab Taee photo" />
-          <h1>Sohrab Taee</h1>
+          <img src="sohrab-taee.jpg" alt="Sohrab Taee photo" class="image" />
+          <h1 class="title">Sohrab Taee</h1>
           <p>Senior Software Engineer</p>
           <p>
             I'm a software engineer with <strong>8+ years</strong> of
@@ -53,150 +53,257 @@
             I love traveling, music, and technology.
           </p>
         </div>
-        <div class="info">
-          <h3>Location</h3>
-          <p>Berlin, Germany</p>
-          <h3>Languages</h3>
-          <ul class="languages">
-            <li>English (IELTS 7.5)</li>
-            <li>German (A1.1)</li>
-            <li>Persian (native)</li>
-          </ul>
-          <div class="contact">
-            <h3>Contact Me</h3>
-            <ul>
-              <li>
-                <a
-                  href="mailto:&#115;&#111;&#104;&#114;&#097;&#098;&#046;&#116;&#097;&#101;&#101;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"
-                >
-                  <i class="fas fa-envelope"></i>
-                  &#115;&#111;&#104;&#114;&#097;&#098;&#046;&#116;&#097;&#101;&#101;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/sohrabtaee/"
-                  target="_blank"
-                >
-                  <i class="fab fa-linkedin"></i>
-                  <span class="screen-only">sohrabtaee</span>
-                  <span class="print-only"
-                    >linkedin.com/in/sohrabtaee</span
-                  >
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/sohrabtaee" target="_blank">
-                  <i class="fab fa-github"></i>
-                  <span class="screen-only">sohrabtaee</span>
-                  <span class="print-only">github.com/sohrabtaee</span>
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://stackoverflow.com/users/3752067/sohrab-taee"
-                  target="_blank"
-                >
-                  <i class="fab fa-stack-overflow"></i>
-                  <span class="screen-only">sohrab-taee</span>
-                  <span class="print-only"
-                    >stackoverflow.com/users/3752067/sohrab-taee</span
-                  >
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
+        <h3 class="location section-title">Location</h3>
+        <p>Berlin, Germany</p>
+        <h3 class="section-title">Languages</h3>
+        <ul class="languages">
+          <li>English (IELTS 7.5)</li>
+          <li>German (A1.1)</li>
+          <li>Persian (native)</li>
+        </ul>
+        <h3 class="section-title">Contact Me</h3>
+        <ul class="contact unbulleted-list">
+          <li>
+            <a
+              href="mailto:&#115;&#111;&#104;&#114;&#097;&#098;&#046;&#116;&#097;&#101;&#101;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"
+            >
+              <i class="fas fa-envelope"></i>
+              &#115;&#111;&#104;&#114;&#097;&#098;&#046;&#116;&#097;&#101;&#101;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/sohrabtaee/" target="_blank">
+              <i class="fab fa-linkedin"></i>
+              <span class="screen-only">sohrabtaee</span>
+              <span class="print-only">linkedin.com/in/sohrabtaee</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/sohrabtaee" target="_blank">
+              <i class="fab fa-github"></i>
+              <span class="screen-only">sohrabtaee</span>
+              <span class="print-only">github.com/sohrabtaee</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://stackoverflow.com/users/3752067/sohrab-taee"
+              target="_blank"
+            >
+              <i class="fab fa-stack-overflow"></i>
+              <span class="screen-only">sohrab-taee</span>
+              <span class="print-only"
+                >stackoverflow.com/users/3752067/sohrab-taee</span
+              >
+            </a>
+          </li>
+        </ul>
       </aside>
       <section class="main-content">
-        <article class="experience">
-          <h2>
+        <article class="experiences section">
+          <h2 class="section-title">
             <i class="fas fa-briefcase"></i>
             Experience
           </h2>
-          <ol class="list">
-            <li>
-              <h4>Senior Web Engineer</h4>
+          <ol class="unbulleted-list">
+            <li class="experience">
+              <h4 class="title">Senior Web Engineer</h4>
               <div>
-                <a href="https://www.fromatob.com" target="_blank"
-                  >fromAtoB
+                <a
+                  href="https://www.fromatob.com"
+                  target="_blank"
+                  class="company"
+                >
+                  fromAtoB
                   <span class="print-only">(https://www.fromatob.com)</span>
                 </a>
                 - Berlin, Germany
               </div>
               <div class="date">November 2019 - Present</div>
+              <input type="checkbox" id="fromatob" class="toggle-checkbox" />
+              <label for="fromatob" class="description-toggle screen-only">
+                Description
+              </label>
+              <div class="description screen-only">
+                <p>
+                  I work as a senior web engineer in our retention squad. Our
+                  goal is to provide users with such experience they want to
+                  come back for more.
+                </p>
+                <p>
+                  So far, I've been working on migrating the user account area
+                  of fromAtoB website from a server-rendered Ruby on Rails app
+                  to a Vue.js powered SPA. Our plan is to extend the account
+                  area with more features in order to encourage users to create
+                  an account.
+                </p>
+                <p>
+                  We work based on agile principles and scrum methodology. I
+                  work closely with designers, back-end developers, and our
+                  product owner.
+                </p>
+                <p>
+                  I also work on some of our chapter related tasks such as
+                  migrating our unit tests to Jest and updating some of our
+                  older Vue.js infrastructures.
+                </p>
+              </div>
             </li>
-            <li>
-              <h4>Senior Front-end Developer</h4>
+            <li class="experience">
+              <h4 class="title">Senior Front-end Developer</h4>
               <div>
-                <a href="https://vaadin.com" target="_blank"
-                  >Vaadin
+                <a href="https://vaadin.com" target="_blank" class="company">
+                  Vaadin
                   <span class="print-only">(https://vaadin.com)</span>
                 </a>
                 - Turku, Finland
               </div>
               <div class="date">May 2018 - October 2019</div>
+              <input type="checkbox" id="vaadin" class="toggle-checkbox" />
+              <label for="vaadin" class="description-toggle screen-only">Description</label>
+              <div class="description screen-only">
+                <p>
+                  I used to work as a senior front-end consultant. I was
+                  involved with customer projects mostly using Web Components,
+                  PWAs, and hybrid mobile apps. I had also worked on several
+                  Vaadin components.
+                </p>
+              </div>
             </li>
-            <li>
-              <h4>Front-end Team Lead</h4>
+            <li class="experience">
+              <h4 class="title">Front-end Team Lead</h4>
               <div>
-                <a href="https://alibaba.ir/" target="_blank"
-                  >Alibaba Travels
+                <a href="https://alibaba.ir/" target="_blank" class="company">
+                  Alibaba Travels
                   <span class="print-only">(https://alibaba.ir)</span>
                 </a>
                 - Tehran, Iran
               </div>
               <div class="date">May 2017 - May 2018</div>
+              <input type="checkbox" id="alibaba" class="toggle-checkbox" />
+              <label for="alibaba" class="description-toggle screen-only">
+                Description
+              </label>
+              <div class="description screen-only">
+                <p>
+                  At the time I was working there, Alibaba Travels was the
+                  leading IT company in the tourism industry of Iran.
+                </p>
+                <p>
+                  I started working as a front-end developer in our child brand
+                  Jabama (our hotel booking website) and after a few months, I
+                  was promoted to be the front-end team lead.
+                </p>
+                <p>
+                  My job was to architect and lead the front-end development of
+                  a new website for the company.
+                </p>
+                <p>
+                  I was accountable for the relationship between my team, our
+                  product owner, the UX/UI team, and the back-end team.
+                </p>
+                <p>I also interviewed front-end developer candidates.</p>
+              </div>
             </li>
-            <li>
-              <h4>WordPress Development Lead and Front-end Developer</h4>
+            <li class="experience">
+              <h4 class="title">
+                WordPress Development Lead and Front-end Developer
+              </h4>
               <div>
-                <a href="https://citynet.ir/" target="_blank"
-                  >Citynet
+                <a href="https://citynet.ir/" target="_blank" class="company">
+                  Citynet
                   <span class="print-only">(https://citynet.ir)</span>
                 </a>
                 - Tehran, Iran
               </div>
               <div class="date">April 2015 – May 2017</div>
+              <input type="checkbox" id="citynet" class="toggle-checkbox" />
+              <label for="citynet" class="description-toggle screen-only">
+                Description
+              </label>
+              <div class="description screen-only">
+                <p>Citynet is an IT company active in the tourism industry.</p>
+                <p>
+                  I was working as the head of website development department,
+                  and as the front-end developer in web applications team.
+                </p>
+                <p>
+                  We developed WordPress websites for our clients and my job was
+                  to lead the WordPress development team.
+                </p>
+                <p>
+                  I was in charge of integrating our tourism web services into
+                  our WordPress websites so that our clients could sell tourism
+                  services such as domestic and international flight, train, and
+                  bus tickets and travel insurance on their websites.
+                </p>
+                <p>
+                  I also interviewed WordPress and front-end developer
+                  candidates.
+                </p>
+              </div>
             </li>
-            <li>
-              <h4>Front-end Developer</h4>
+            <li class="experience">
+              <h4 class="title">Front-end Developer</h4>
               <div>Web Negar - Tehran, Iran</div>
               <div class="date">April 2014 - Mar 2015</div>
+              <input type="checkbox" id="web-negar" class="toggle-checkbox" />
+              <label for="web-negar" class="description-toggle screen-only">
+                Description
+              </label>
+              <div class="description screen-only">
+                <p>
+                  Web Negar was a website development company. I was working as
+                  a front-end developer.
+                </p>
+                <p>
+                  My job was to translate designs of the graphics team to static
+                  web pages and hand them over to back-end team.
+                </p>
+              </div>
             </li>
-            <li>
-              <h4>Website Manager</h4>
+            <li class="experience">
+              <h4 class="title">Website Manager</h4>
               <div>
-                <a href="http://asrdigital.ir/" target="_blank"
-                  >Asr-e Digital
+                <a href="http://asrdigital.ir/" target="_blank" class="company">
+                  Asr-e Digital
                   <span class="print-only">(https://asrdigital.ir)</span>
                 </a>
                 - Esfahan, Iran
               </div>
               <div class="date">June 2012 – April 2013</div>
+              <input
+                type="checkbox"
+                id="asre-digital"
+                class="toggle-checkbox"
+              />
+              <label for="asre-digital" class="description-toggle screen-only">
+                Description
+              </label>
+              <div class="description screen-only">
+                <p>Website management, UI/UX design, and content editing.</p>
+              </div>
             </li>
           </ol>
         </article>
-        <article class="education">
-          <h2>
+        <article class="education section">
+          <h2 class="section-title">
             <i class="fas fa-graduation-cap"></i>
             Education
           </h2>
-          <ol class="list">
-            <li>
-              <h4>Bachelor of Science (B.S.), Computer Hardware Engineering</h4>
-              <div>Azad University (IAU)</div>
-              <div class="date">2005 - 2010</div>
-            </li>
-          </ol>
+          <h4 class="title">
+            Bachelor of Science (B.S.), Computer Hardware Engineering
+          </h4>
+          <div>Azad University (IAU)</div>
+          <div class="date">2005 - 2010</div>
         </article>
-        <article class="skills">
-          <h2>
+        <article class="skills section">
+          <h2 class="section-title">
             <i class="fas fa-cogs"></i>
             Skills
           </h2>
           <h3>Non-technical Skills</h3>
-          <ul class="skill-set">
+          <ul class="unbulleted-list">
             <li>Leadership</li>
             <li>Team Work</li>
             <li>Communication</li>
@@ -208,7 +315,7 @@
             <li>Trello</li>
           </ul>
           <h3>Front-end</h3>
-          <ul class="skill-set">
+          <ul class="unbulleted-list">
             <li>HTML</li>
             <li>CSS</li>
             <li>CSS Processors</li>
@@ -237,7 +344,7 @@
             <li>Object Oriented Programming</li>
           </ul>
           <h3>WordPress</h3>
-          <ul class="skill-set">
+          <ul class="unbulleted-list">
             <li>PHP</li>
             <li>WordPress Development</li>
             <li>WP Theme Development</li>
@@ -248,8 +355,8 @@
         </article>
       </section>
     </main>
-    <div class="refer">
-      <p>
+    <footer class="footnotes">
+      <p class="footnotes-linkedin">
         Please refer to
         <a href="https://www.linkedin.com/in/sohrabtaee/" target="_blank">
           my LinkedIn profile
@@ -266,6 +373,6 @@
       <a href="pdf/sohrab-taee-resume.pdf" class="screen-only" download
         >Download PDF version</a
       >
-    </div>
+    </footer>
   </body>
 </html>

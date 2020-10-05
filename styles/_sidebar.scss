@@ -1,17 +1,18 @@
-/* sidebar */
 .sidebar {
   width: 35%;
   padding: 2em 1em;
   border-right: 2px solid $light-gray;
+  .section-title {
+    margin-bottom: 0.25em;
+  }
 }
 
-/* intro */
 .intro {
-  h1 {
+  .title {
     margin: 0.5em 0 0;
     color: $main-color;
   }
-  img {
+  .image {
     display: block;
     border-radius: 50%;
     width: 250px;
@@ -19,37 +20,9 @@
   }
 }
 
-/* info */
-.info {
-  h3 {
-    text-transform: uppercase;
-    color: $main-color;
-    margin-bottom: 0.25em;
-  }
-
-  p {
-    margin-bottom: 2em;
-  }
-
-  .languages {
-    list-style-position: inside;
-    padding: 0;
-    margin-top: 0;
-    margin-bottom: 2em;
-  }
-}
-
-/* contact */
-.contact {
-  ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  li {
-    margin-bottom: 0.5em;
-    a {
-      border-bottom: 0;
-    }
-  }
+.languages {
+  list-style-position: inside;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 1em;
 }

@@ -17,6 +17,10 @@
     color: #000 !important;
     border-bottom: 0 !important;
   }
+  .main-content,
+  .sidebar {
+    padding-top: 0;
+  }
   .sidebar {
     -webkit-print-color-adjust: exact;
   }
@@ -42,6 +46,7 @@
     width: 20cm;
     min-height: 29.68cm;
     margin: 0.5cm;
+    padding-top: 0.75cm;
   }
   .footnotes {
     width: 20cm;
@@ -53,8 +58,8 @@
   .education {
     page-break-after: always;
   }
-  .location,
-  .skills {
-    margin-top: 0.75cm;
+  .experience {
+    page-break-inside: avoid;
+    margin-bottom: 2em;
   }
 }

@@ -1,10 +1,11 @@
 {
   "name": "resume",
   "version": "1.0.0",
-  "description": "Sohrab Taee Resume",
+  "description": "Sohrab Taee Resume (CV)",
   "main": "index.html",
   "scripts": {
-    "scss": "node-sass --watch styles -o css --output-style compressed"
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,15 @@
   },
   "homepage": "https://github.com/sohrabtaee/resume#readme",
   "devDependencies": {
-    "node-sass": "^4.11.0"
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "jest": "^26.5.2",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.1.2",
+    "sass": "^1.27.0"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
   }
 }

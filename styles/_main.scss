@@ -33,8 +33,6 @@
     }
   }
   .description {
-    max-height: 0;
-    transition: max-height 0.35s, margin 0.35s;
     border-left: 3px solid $main-color;
     padding-left: 1em;
     p {
@@ -43,32 +41,6 @@
         margin-bottom: 0;
       }
     }
-  }
-  .toggle-checkbox {
-    display: none;
-    + label {
-      &:before {
-        content: 'Show';
-        margin-right: 0.25em;
-      }
-    }
-    &:checked {
-      + label {
-        &:before {
-          content: 'Hide';
-        }
-      }
-      ~ .description {
-        max-height: 100vh;
-        margin-top: 0.5em;
-      }
-    }
-  }
-  .description-toggle {
-    cursor: pointer;
-    color: $main-color;
-    display: inline-flex;
-    align-items: center;
   }
 }
 

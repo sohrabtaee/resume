@@ -8,6 +8,9 @@
   .screen-only {
     display: none !important;
   }
+  .no-break {
+    page-break-inside: avoid;
+  }
   p,
   a,
   a:link,
@@ -21,8 +24,12 @@
   .sidebar {
     padding-top: 0;
   }
+  .main-content {
+    padding-right: 0;
+  }
   .sidebar {
     -webkit-print-color-adjust: exact;
+    padding-left: 0;
   }
   .intro {
     .image {
@@ -45,21 +52,13 @@
   .resume {
     width: 20cm;
     min-height: 29.68cm;
-    margin: 0.5cm;
-    padding-top: 0.75cm;
+    margin: 0;
+    padding: 0;
   }
   .footnotes {
     width: 20cm;
     margin: 0.5cm;
     font-size: 0.833em;
     text-align: center;
-  }
-  .intro,
-  .education {
-    page-break-after: always;
-  }
-  .experience {
-    page-break-inside: avoid;
-    margin-bottom: 2em;
   }
 }

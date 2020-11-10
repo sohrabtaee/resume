@@ -1,3 +1,3 @@
-# My Resume
+# My Resume (CV)
 
-My resume: https://sohrabtaee.github.io/resume/
+My resume: https://sohrab-taee-cv.netlify.app/

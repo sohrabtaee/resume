@@ -12,13 +12,15 @@
     page-break-inside: avoid;
   }
   p,
-  a,
+  a {
+    color: #000 !important;
+  }
   a:link,
   a:visited,
   a:hover,
   a:active {
     color: #000 !important;
-    border-bottom: 0 !important;
+    border-bottom: 1px solid #000;
   }
   .main-content,
   .sidebar {
@@ -38,9 +40,8 @@
     }
   }
   .contact {
-    a {
+    li {
       margin-bottom: 0.25cm;
-      display: block;
     }
     i {
       display: block;
@@ -59,6 +60,6 @@
     width: 20cm;
     margin: 0.5cm;
     font-size: 0.833em;
-    text-align: center;
+    justify-content: center;
   }
 }

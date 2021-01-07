@@ -1,5 +1,5 @@
 .main-content {
-  padding: 2em;
+  padding: 2em 1em;
   width: 65%;
   .section {
     margin-bottom: 3em;
@@ -12,7 +12,7 @@
   }
   .date {
     color: $gray;
-    margin: 0.25em 0;
+    margin: 0.5em 0;
   }
 }
 
@@ -38,11 +38,15 @@
   .description {
     border-left: 3px solid $main-color;
     padding-left: 1em;
+    ul,
     p {
       margin-bottom: 1em;
       &:last-child {
         margin-bottom: 0;
       }
+    }
+    h4 {
+      font-size: 1.1em;
     }
   }
 }

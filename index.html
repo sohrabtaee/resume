@@ -20,7 +20,21 @@
         @partial("content/skills.html")
       </aside>
       <section class="main-content">
-        @partial("content/experiences.html")
+        <article class="experiences">
+          <h2 class="section-title">
+            <span class="icon-briefcase"></span>
+            Experiences
+          </h2>
+          <ol class="unbulleted-list">
+            @partial("content/experiences/passionatepeople.html")
+            @partial("content/experiences/fromatob.html")
+            @partial("content/experiences/vaadin.html")
+            @partial("content/experiences/alibaba.html")
+            @partial("content/experiences/citynet.html")
+            @partial("content/experiences/webnegar.html")
+            @partial("content/experiences/asredigital.html")
+          </ol>
+        </article>
       </section>
     </main>
     @partial("content/footnotes.html")

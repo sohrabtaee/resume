@@ -23,17 +23,17 @@
   &:last-child {
     margin-bottom: 0;
   }
-  .company {
+  a {
     color: $dark-gray;
-    font-size: 1.2em;
-    &.link {
-      border-bottom: 1px solid $dark-gray;
-      &:hover,
-      &:active {
-        color: $main-color;
-        border-color: $main-color;
-      }
+    border-bottom: 1px solid $dark-gray;
+    &:hover,
+    &:active {
+      color: $main-color;
+      border-color: $main-color;
     }
+  }
+  .company {
+    font-size: 1.2em;
   }
   .description {
     border-left: 3px solid $main-color;
@@ -47,6 +47,15 @@
     }
     h4 {
       font-size: 1.1em;
+    }
+  }
+  .client {
+    margin-top: 1em;
+    .company {
+      margin-bottom: 0.5em;
+    }
+    .date {
+      font-size: 0.8em;
     }
   }
 }

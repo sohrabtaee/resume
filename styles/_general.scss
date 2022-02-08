@@ -63,13 +63,13 @@ a,
 a:link,
 a:visited {
   text-decoration: none;
-  color: $main-color;
+  color: $dark-color;
 }
 
 a:hover,
 a:active {
   text-decoration: none;
-  color: $dark-color;
+  color: $main-color;
 }
 
 small {

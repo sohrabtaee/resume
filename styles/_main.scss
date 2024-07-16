@@ -25,11 +25,9 @@
   }
   a {
     color: $dark-gray;
-    border-bottom: 1px solid $dark-gray;
     &:hover,
     &:active {
       color: $main-color;
-      border-color: $main-color;
     }
   }
   .company {

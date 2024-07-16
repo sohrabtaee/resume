@@ -62,13 +62,13 @@ li {
 a,
 a:link,
 a:visited {
-  text-decoration: none;
+  text-decoration: underline;
   color: $dark-color;
 }
 
 a:hover,
 a:active {
-  text-decoration: none;
+  text-decoration: underline;
   color: $main-color;
 }
 
@@ -125,5 +125,8 @@ img {
   box-sizing: border-box;
   &-linkedin {
     margin-bottom: 0;
+    a {
+      text-decoration: underline;
+    }
   }
 }
